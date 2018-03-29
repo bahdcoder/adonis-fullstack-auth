@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,600");
+
+.navbar-adonis {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+body {
+  background-color: #f5f8fa;
+  color: #212529;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+}
