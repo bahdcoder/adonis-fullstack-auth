@@ -1,6 +1,6 @@
 # Adonis fullstack application
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+This is a fullstack boilerplate for AdonisJs, with a complete authentication system built in. It comes pre-configured with:
 
 1. Bodyparser
 2. Session
@@ -12,6 +12,13 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 8. Migrations and seeds
 9. Validation
 11. Session based authentication system
+
+## How It looks:
+
+![Welcome view](http://res.cloudinary.com/bahdcoder/image/upload/v1522486253/Screen_Shot_2018-03-31_at_9.32.58_AM_xssrgd.png)
+![Register view](http://res.cloudinary.com/bahdcoder/image/upload/v1522486253/Screen_Shot_2018-03-31_at_9.32.18_AM_mdjkqj.png)
+![Login view](http://res.cloudinary.com/bahdcoder/image/upload/v1522486252/Screen_Shot_2018-03-31_at_9.32.06_AM_wfu5jc.png)
+![Home view](http://res.cloudinary.com/bahdcoder/image/upload/v1522486236/Screen_Shot_2018-03-31_at_9.32.32_AM_o3nupt.png)
 
 ## Setup
 
@@ -30,16 +37,6 @@ Run the following command to run startup migrations.
 
 ```js
 adonis migration:run
-```
-
-### Browser tests
-
-Run the following command to run headless browser tests.
-
-```js
-adonis test
-// or
-npm test
 ```
 
 ### Todo List
