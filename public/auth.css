@@ -10,3 +10,35 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 0.9rem;
 }
+
+/* Modern Login Button Styling */
+.login-btn {
+  padding: 12px 48px;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 4px 15px 0 rgba(102, 126, 234, 0.35);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+}
+
+.login-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px 0 rgba(102, 126, 234, 0.5);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.login-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 10px 0 rgba(102, 126, 234, 0.4);
+}
+
+.login-btn:focus {
+  outline: none;
+  box-shadow: 0 4px 15px 0 rgba(102, 126, 234, 0.5), 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
